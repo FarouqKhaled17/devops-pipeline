@@ -1,0 +1,17 @@
+{
+  "name": "devops-pipeline-sample",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node index.js",
+    "test": "jest --reporters=default --reporters=jest-junit"
+  },
+  "jest-junit": {
+    "outputDirectory": ".",
+    "outputName": "test-results.xml"
+  },
+  "devDependencies": {
+    "jest": "^29.0.0",
+    "jest-junit": "^13.0.0"
+  }
+}
